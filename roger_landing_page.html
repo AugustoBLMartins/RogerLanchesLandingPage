@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lanchonete Prensados - Promoção de Hoje!</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* Gradiente suave no site inteiro */
+    body {
+      background: linear-gradient(to bottom, #111, #1a1a1a, #222);
+    }
+  </style>
+</head>
+
+<body class="text-gray-200">
+
+
+  <!-- HEADER / HERO -->
+  <header class="relative w-full  overflow-hidden">
+
+  <!-- Vídeo de fundo -->
+  <video autoplay muted loop playsinline 
+         class="absolute top-0 left-0 w-full h-full object-cover">
+    <source src="video/videoFundo.mp4" type="video/mp4">
+  </video>
+
+    
+    <div class="absolute inset-0 bg-cover bg-center opacity-30"></div>
+
+    <div class="relative bg-gradient-to-b from-black/80 to-black/40 py-24 text-center px-6">
+      <h1 class="text-5xl font-extrabold text-amber-400 drop-shadow-xl">
+        Os Melhores Lanches Prensados!
+      </h1>
+      <p class="text-lg mt-4 text-gray-300 max-w-xl mx-auto">
+        Sabor intenso, pão crocante e recheio de verdade. Experimente o melhor prensado da cidade.
+      </p>
+
+      <div class="mt-10 flex flex-col md:flex-row gap-4 justify-center">
+        <a href="https://wa.me/5515974004646?text=Olá!%20Vim%20pela%20landing%20page%20e%20quero%20fazer%20um%20pedido" target="_blank"
+          class="bg-[#25D366] hover:bg-[#1ebe57] text-white font-bold py-3 px-8 rounded-lg shadow-lg text-lg transition">
+          Pedir pelo WhatsApp
+      </a>
+
+        <a href="https://roger-lanches.goomer.app" 
+           class="bg-gray-800 hover:bg-gray-700 text-white font-semibold py-3 px-8 rounded-lg shadow-lg text-lg transition">
+          Acessar App de Pedidos
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- PROMOÇÃO DO DIA
+  <section class="max-w-5xl mx-auto px-6 py-20 text-center">
+    <h2 class="text-4xl font-extrabold text-amber-400 drop-shadow">
+      🔥 Promoção do Dia
+    </h2>
+    <p class="text-gray-400 mt-2">Atualizada diariamente</p>
+
+    <div class="mt-10 bg-[#1f1f1f] border border-amber-500/40 shadow-xl p-10 rounded-2xl">
+      <h3 class="text-3xl font-bold text-amber-300">Prensado Especial + Refrigerante</h3>
+      <p class="text-gray-400 mt-2">Somente hoje • Quantidade limitada</p>
+      <p class="text-5xl font-extrabold text-green-400 mt-6">R$ 19,90</p>
+
+      <a href="#" 
+         class="inline-block mt-8 bg-amber-500 hover:bg-amber-600 text-black font-bold py-4 px-10 rounded-xl shadow-lg text-xl transition">
+        Aproveitar Agora
+      </a>
+    </div>
+  </section> -->
+
+  <!-- MAIS VENDIDOS -->
+  <section class="py-20 bg-gradient-to-b from-[#1a1a1a] to-[#111]">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-extrabold text-center text-amber-400">🍔 Os mais vendidos</h2>
+      <p class="text-center text-gray-400 mt-2">Prensados artesanais com muito recheio</p>
+
+      <div class="grid md:grid-cols-3 gap-10 mt-16">
+
+        <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+          <a href="https://wa.me/5515974004646?text=Ol%C3%A1%2C%20vim%20pela%20landing%20page%20e%20gostaria%20de%20pedir%20um%20X-Salada
+          " class="hover:brightness-125 transition">
+          <h3 class="text-2xl font-bold text-amber-300">X-Salada</h3>
+          <p class="text-gray-400 mt-2">Hamburguer, catupiry, queijo, tomate, alface. <br> <br> <br></p>
+          <p class="text-2xl font-extrabold text-green-400 mt-6">R$ 19,00</p>
+          </a>
+        </div>
+
+        <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+          <a href="https://wa.me/5515974004646?text=Ol%C3%A1%2C%20vim%20pela%20landing%20page%20e%20gostaria%20de%20pedir%20um%20Cachorr%C3%A3o%20Simples
+          " class="hover:brightness-125 transition">
+          <h3 class="text-2xl font-bold text-amber-300">Cachorrão Simples</h3>
+          <p class="text-gray-400 mt-2">2 salsicha, purê de batata, milho, tomate, batata palha, ketchup e mostarda. <br> <br></p>
+          <p class="text-2xl font-extrabold text-green-400 mt-6">R$ 17,00</p>
+          </a>
+        </div>
+
+        <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+          <a href="https://wa.me/5515974004646?text=Ol%C3%A1%2C%20vim%20pela%20landing%20page%20e%20gostaria%20de%20pedir%20um%20Dog%20Especial
+          " class="hover:brightness-125 transition">
+          <h3 class="text-2xl font-bold text-amber-300">Dog Especial</h3>
+          <p class="text-gray-400 mt-2">2 Salsicha, purê de batata, calabresa, bacon, milho, cebola, tomate, catpuiry,
+            queijo, batata palha, ketchup e mostarda.
+          </p>
+          <p class="text-2xl font-extrabold text-green-400 mt-6">R$ 26,00</p>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+   <!-- NOSSOS COMBOS -->
+  <section class="py-20 bg-[#111]">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-extrabold text-center text-amber-400">🔥 Nossos combos</h2>
+      <p class="text-center text-gray-400 mt-2">Prensados artesanais com muito recheio</p>
+
+      <div class="grid md:grid-cols-3 gap-10 mt-16">
+
+        <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+          <a href="https://wa.me/5515974004646?text=Boa%20noite,%20gostaria%20de%20pedir%20o%20COMBO%20N1%20-%204%20ITENS"  class="hover:brightness-125 transition">
+          <h3 class="text-2xl font-bold text-amber-300">COMBO N1</h3>
+          <p class="text-gray-400 mt-2">
+            - 1 X-Salada<br>
+            - 1 X-Egg<br>
+            - 1 Batata média<br>
+            - 1 Refrigerante vedete 2L
+          </p>
+          <p class="text-2xl font-extrabold text-green-400 mt-6">R$ 54,00</p>
+          </a>
+        </div>
+
+        <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+          <a href="https://wa.me/5515974004646?text=Boa%20noite,%20gostaria%20de%20pedir%20o%20COMBO%20N2%20-%204%20ITENS" class="hover:brightness-125 transition">
+          <h3 class="text-2xl font-bold text-amber-300">COMBO N2</h3>
+          <p class="text-gray-400 mt-2">
+            - 2 X-Dog Especial <br>
+            - 1 Batata média com cheddar e bacon <br>
+            - 1 Coca Cola 2L
+            <br>
+            <br>
+          </p>
+          <p class="text-2xl font-extrabold text-green-400 mt-6">R$ 74,00</p>
+          </a>
+        </div>
+
+        <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+          <a href=" https://wa.me/5515974004646?text=Boa%20noite,%20gostaria%20de%20pedir%20o%20COMBO%20N3%20-%202%20LANCHES" class="hover:brightness-125 transition">
+          <h3 class="text-2xl font-bold text-amber-300">COMBO N3</h3>
+          <p class="text-gray-400 mt-2">
+            - 2 X-Dog Simples <br>
+            - 1 Batata média  <br>
+            - 1 Vedete 2L
+            <br>
+            <br>
+          </p>
+          <p class="text-2xl font-extrabold text-green-400 mt-6">R$ 52,00</p>
+          </a>
+        </div>
+
+        <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+          <a href="https://wa.me/5515974004646?text=Boa%20noite,%20gostaria%20de%20pedir%20o%20COMBO%20N4%20-%204%20ITENS" class="hover:brightness-125 transition">
+          <h3 class="text-2xl font-bold text-amber-300">COMBO N4</h3>
+          <p class="text-gray-400 mt-2">
+            - 1 X-Bacon <br>
+            - 1 X-Calabresa <br>
+            - 1 Batata Média <br>
+            - 1 Vedete 2L 
+        
+          </p>
+          <p class="text-2xl font-extrabold text-green-400 mt-6">R$ 64,00</p>
+          </a>
+        </div>
+
+        <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+          <a href="https://wa.me/5515974004646?text=Boa%20noite,%20gostaria%20de%20pedir%20o%20COMBO%20N5%20-%204%20ITENS" class="hover:brightness-125 transition">
+          <h3 class="text-2xl font-bold text-amber-300">COMBO N5</h3>
+          <p class="text-gray-400 mt-2">
+            - 1 Duplo bacon <br>
+            - 1 À Moda da Casa <br>
+            - Batata Média <br>
+            - Coca Cola 2L
+          </p>
+          <p class="text-2xl font-extrabold text-green-400 mt-6">R$ 78,00</p>
+          </a>
+        </div>
+
+        <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+          <a href=" https://wa.me/5515974004646?text=Boa%20noite,%20gostaria%20de%20pedir%20o%20COMBO%20N6%20-%204%20LANCHES" class="hover:brightness-125 transition">
+          <h3 class="text-2xl font-bold text-amber-300">COMBO N6</h3>
+          <p class="text-gray-400 mt-2">
+            - 4 X-Salada <br>
+            - 1 Vedete 2L <br>
+            - 1 Batata Grande
+            <br>
+            <br>
+          </p>
+          <p class="text-2xl font-extrabold text-green-400 mt-6">R$ 96,00</p>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section class="py-20 bg-[#111]">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-extrabold text-center text-amber-400">Por que somos os melhores?</h2>
+
+      <div class="grid md:grid-cols-3 gap-12 mt-16 text-center">
+        <div>
+          <h3 class="text-2xl font-bold text-amber-300">✔ Ingredientes Frescos</h3>
+          <p class="text-gray-400 mt-3">Sempre selecionamos os melhores produtos.</p>
+        </div>
+
+        <div>
+          <h3 class="text-2xl font-bold text-amber-300">✔ Entrega Rápida</h3>
+          <p class="text-gray-400 mt-3">Seu pedido chega quentinho.</p>
+        </div>
+
+        <div>
+          <h3 class="text-2xl font-bold text-amber-300">✔ Sabor Incomparável</h3>
+          <p class="text-gray-400 mt-3">Receitas exclusivas com muito recheio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+<section class="py-20 bg-gradient-to-b from-[#111] to-[#0d0d0d]">
+  <div class="max-w-5xl mx-auto px-6">
+    
+    <h2 class="text-4xl font-extrabold text-center text-amber-400">
+      O que nossos clientes dizem
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8 mt-16">
+
+      <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+        <p class="text-gray-300">“Melhor prensado da cidade! Atendimento excelente.”</p>
+        <p class="mt-4 font-bold text-amber-300">— Carlos A.</p>
+      </div>
+
+      <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+        <p class="text-gray-300">“Entrega super rápida e tudo sempre quentinho.”</p>
+        <p class="mt-4 font-bold text-amber-300">— Juliana M.</p>
+      </div>
+
+      <div class="bg-[#1f1f1f] p-8 rounded-xl shadow border border-gray-700">
+        <p class="text-gray-300">“Recheio de verdade! Vale cada centavo.”</p>
+        <p class="mt-4 font-bold text-amber-300">— Vinícius R.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- RODAPÉ -->
+  <footer class="bg-black py-10 text-center bg-[('img/roger_logo.jpg')]">
+    <p class="text-lg font-semibold text-amber-400">Roger Lanches</p>
+    <p class="text-gray-500 mt-2">
+      <a href="https://maps.app.goo.gl/DtRjqEuUQhf8HCyY7" class="text-blue-500 hover:underline">
+        Rua Benedito De Oliveira Lousada, 42 - Parque São Bento
+      </a>
+    </p>
+    <p class="text-gray-600 mt-6 text-sm">© 2025 Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
